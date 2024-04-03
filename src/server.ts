@@ -7,6 +7,7 @@ import {
   validatorCompiler,
 } from "fastify-type-provider-zod";
 import { errorHandler } from "./error-handler";
+import { registerForEvent } from "./routes/register-for-event";
 
 export const app = fastify().withTypeProvider<ZodTypeProvider>();
 
@@ -14,6 +15,7 @@ app.setValidatorCompiler(validatorCompiler);
 app.setSerializerCompiler(serializerCompiler);
 
 app.register(createEvent);
+app.register(registerForEvent);
 
 app.setErrorHandler(errorHandler);
 
