@@ -23,6 +23,7 @@ app.register(fastifyCors, {
   origin: "*",
 });
 
+// URL para consulta de documentação no Swagger UI: http://localhost:3333/docs/static/index.html#/
 app.register(fastifySwagger, {
   swagger: {
     consumes: ["application/json"],
