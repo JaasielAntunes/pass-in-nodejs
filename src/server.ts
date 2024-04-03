@@ -10,6 +10,8 @@ import { errorHandler } from "./error-handler";
 import { registerForEvent } from "./routes/register-for-event";
 import { getEvent } from "./routes/get-event";
 import { checkIn } from "./routes/check-in";
+import { getEventAttendees } from "./routes/get-event-attendees";
+import { getAttendeeBadge } from "./routes/get-ateendee-badge";
 
 export const app = fastify().withTypeProvider<ZodTypeProvider>();
 
@@ -20,6 +22,8 @@ app.register(createEvent);
 app.register(registerForEvent);
 app.register(getEvent);
 app.register(checkIn);
+app.register(getEventAttendees);
+app.register(getAttendeeBadge);
 
 app.setErrorHandler(errorHandler);
 
