@@ -1,5 +1,5 @@
 <h1 align="center">
-  Aplicação Backend desenvolvida durante a Trilha de NodeJS no evento NLW Unite promovido pela Rocketseat.
+  Aplicação Backend desenvolvida durante a Trilha de NodeJS no evento NLW Unite promovido pela <a href="https://app.rocketseat.com.br/home">Rocketseat</a>.
 </h1>
 
 <p align="center">
