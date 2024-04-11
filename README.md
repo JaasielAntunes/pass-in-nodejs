@@ -86,7 +86,7 @@ CREATE UNIQUE INDEX "check_ins_attendeeId_key" ON "check_ins"("attendeeId");
 
 ---
 
-## 💻 Tecnologias utilizadas
+## 💻 Tecnologias
 
 - Prisma
 - SQLite
