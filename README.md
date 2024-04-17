@@ -93,6 +93,7 @@ CREATE UNIQUE INDEX "check_ins_attendeeId_key" ON "check_ins"("attendeeId");
 - Fastify
 - Zod
 - FakerJS
+- JavaScript
 - Typescript
 - Dotenv
 - DayJS
